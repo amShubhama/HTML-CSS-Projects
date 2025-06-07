@@ -1,0 +1,132 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#border {
+    width: 595px;
+    height: 842px;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    margin-top: 20px;
+    border: 3px solid black;
+}
+
+#inner {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+}
+
+#profile {
+    width: 40%;
+    height: 100%;
+}
+
+#info {
+    width: 100%;
+    height: 25%;
+    background-color: rgb(82, 113, 255);
+}
+
+#info img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    justify-self: center;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Name {
+    text-align: center;
+    margin-top: 4px;
+}
+
+#Name div {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 4px;
+}
+
+#left-side {
+    height: 75%;
+    background-color: rgb(60, 66, 64);
+    color: white;
+    padding-left: 10px;
+}
+
+#Contact {
+    padding-top: 20px;
+}
+
+#Contact div {
+    text-align: left;
+    margin-left: 14px;
+    padding-right: 3px;
+}
+
+.top {
+    margin-top: 6px;
+}
+
+#skill {
+    text-align: left;
+    margin-top: 20px;
+}
+
+#line1 {
+    margin-left: 14px;
+}
+
+#skill p {
+    margin-top: 10px;
+}
+
+#line {
+    width: 90%;
+    height: 6px;
+    background-color: black;
+    border-radius: 3px;
+}
+
+#Certificate {
+    margin-top: 20px;
+}
+
+#Certificate div {
+    margin-left: 14px;
+}
+
+#Certificate div p {
+    margin-top: 10px;
+}
+
+#exp {
+    margin-left: 20px;
+}
+
+.section {
+    color: rgb(82, 113, 255);
+}
+
+.sec-top {
+    margin-top: 20px;
+}
+
+.sec-top div {
+    margin-top: 10px;
+}
+
+.last {
+    margin-left: 200px;
+}
+
+#try {
+    display: flex;
+}
