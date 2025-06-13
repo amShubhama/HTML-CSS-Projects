@@ -269,3 +269,95 @@ body {
         }
     }
 }
+
+.footer {
+    background: #222831;
+    color: #eeeeee;
+    font-size: 14px;
+    padding: 60px 0 20px;
+
+    .footerInnerContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        max-width: 1300px;
+        margin: auto;
+        padding: 0px 25px;
+
+        .footerColumn {
+            min-width: 250px;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .Column1 {
+            flex-basis: 30%;
+
+            h3 {
+                color: #ff523b;
+                margin-bottom: 20px;
+                font-weight: 600;
+
+            }
+
+            p {
+                color: #eeeeee;
+            }
+
+            .AppStore {
+                display: flex;
+                align-items: center;
+                gap: 4px;
+                margin-top: 20px;
+
+                img {
+                    width: 140px;
+                    margin: 5px 0px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .Column2 {
+            flex: 1;
+            align-items: center;
+
+            h3 {
+                color: #ff523b;
+                margin-bottom: 20px;
+                font-weight: 600;
+            }
+
+            p {
+                color: #eeeeee;
+                margin-bottom: 10px;
+                cursor: pointer;
+                transition: color 0.3s ease;
+            }
+        }
+
+        .Column3 {
+            flex-basis: 12%;
+            align-items: center;
+
+            h3 {
+                color: #ff523b;
+                margin-bottom: 20px;
+                font-weight: 600;
+            }
+
+            p {
+                color: #eeeeee;
+                margin-bottom: 10px;
+                cursor: pointer;
+                transition: color 0.3s ease;
+            }
+        }
+
+        .Column3 p:hover,
+        .Column2 p:hover {
+            color: #ff523b;
+        }
+    }
+}
